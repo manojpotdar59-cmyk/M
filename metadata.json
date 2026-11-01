@@ -1,0 +1,6 @@
+{
+  "name": "Jarvis AI",
+  "description": "Jarvis personal AI assistant with voice directives, live diagnostics, memory, and task execution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

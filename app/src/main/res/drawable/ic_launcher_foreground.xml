@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Arc Ring -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26"
+        android:strokeWidth="3.2"
+        android:strokeColor="#00F0FF"
+        android:fillColor="#00000000" />
+
+    <!-- 10 Reactor Segment Marks around perimeter -->
+    <path
+        android:pathData="M54,23 L54,29 M54,79 L54,85 M23,54 L29,54 M79,54 L85,54 M32,32 L36,36 M72,72 L76,76 M76,32 L72,36 M32,76 L36,72"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFB800"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Middle Concentric Ring -->
+    <path
+        android:pathData="M54,34 A20,20 0 1,1 53.9,34"
+        android:strokeWidth="2"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#00000000" />
+
+    <!-- Inner Core Triangle / Arc Core -->
+    <path
+        android:pathData="M54,41 L65,60 L43,60 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00F0FF"
+        android:fillColor="#1500F0FF" />
+
+    <!-- Central Glowing Arc Dot -->
+    <path
+        android:pathData="M54,49 A5,5 0 1,1 53.9,49"
+        android:fillColor="#FFFFFF" />
+        
+    <!-- Golden Accent Node -->
+    <path
+        android:pathData="M54,51 A2.5,2.5 0 1,1 53.9,51"
+        android:fillColor="#FFB800" />
+</vector>
